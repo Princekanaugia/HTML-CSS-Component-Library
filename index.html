@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Component Library</title>
+</head>
+<body>
+    <h1>HTML Component Library</h1>
+    <p>this is a content library for HTML 5. see the html tag in index.html file to understant the usage of different HTML tags in any web-site/web-app. </p>
+
+    <hr>
+
+    <h2>@Typography</h2>
+    <h1>This is the Biggest heaing tag "h1" </h1>
+    <h2>This is the Second Biggest heading tag "h2"</h2>
+    <p>This is normal text. Long running text would look like this on your website/webapp. This will auto fold based on the width. it known as paragraph tag "p" </p>
+    <small>This is relatively smaller text size campare to paragraph tag "p" "small"</small>
+    <div>This is "div" tag which is used when there is no orther HTML tag is able to describe that speacific content of that webpage. "div"</div>
+
+    <hr>
+
+    <h2>@Contaners</h2>
+    <h3>@Fluid Container</h3>
+    <div>this is going to be a fluied container. It will go full width of page. With some margin</div>
+    <h3>@Center Container</h3>
+    <div>this is going to be a center container. it will go till a given width and center conent.</div>
+
+    <hr>
+
+    <h2>@Links</h2>
+    
+    <p>We use anchor tag "a" with attribute~ href="link-address" ~ in opening tags  and content as a name show on the webpage. example : </p>
+    <a href="https://www.linkedin.com/in/princekanaugia/">Primary link</a>
+    <a href="https://twitter.com/Princekanaugia">Secondary link</a>
+    <p>The Primary Link represent more important link on the webpage where as Secondary Link is Relatively the less important link on that webpage. The fact that HTML syntax for both are same on tag level but is a case of preference level of the link among the links that has been put on that webpage. </p>    
+    <hr>
+
+    <h2>@list</h2>
+
+    <p>There are mostly for types of list</p>
+    <ol>
+        <li>Unorder list</li>
+        <li>Order list</li>
+        <li>Inline Unorder/Order list</li>
+        <li>Reversed Unorder/Order list</li>
+    </ol>
+
+    <h3>@Unorder List example</h3>
+    <p>We use tag "ul" for Unorder list with tag "li" type list item inside "ul" tag as cotent. "li" open and closes with each item in the list as content of "li" tag. Also, all the "li" tag item come inside single "ul" tag for that unorder list.
+
+    </p>
+    <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+    <h3>@Order List example</h3>
+    <p>We use tag "ol" for Unorder list with tag "li" type list item inside "ul" tag as cotent. "li" open and closes with each item in the list as content of "li" tag. Also, all the "li" tag item come inside single "ol" tag for that Order list.
+
+    </p>
+    <ol>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ol>
+    
+    <h3>@Inline Unorder/Order List</h3>
+    <P>The Inline Property of the list can be implemet through CSS abbreviation.
+
+    </P>
+
+    <h4>Inline Unorder List</h4>
+    <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+    <h4>Inline Order LIst</h4>
+    <ol>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ol>
+
+    <h3>@Reversed Unorder/Order List</h3>
+    <P>The Inline Property of the list can be implemet through CSS abbreviation.
+
+    </P>
+
+    <h4>Reversed Unorder List</h4>
+    <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+    <h4>Reversed Order LIst</h4>
+    <ol>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ol>
+
+    <hr>
+    <h2>@Navigation</h2>
+    <p>We use "nav" tag for describing Navigation button, links, text, for Navigation Perposes example : Home , Project , Program , About , Contact Us , etc.</p>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/">Project</a>
+            </li>
+            <li>
+                <a href="/">Blog</a>
+            </li>
+            <li>
+                <a href="/">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+    
+    <h2>@Image</h2>
+    <P>We use "img" tag with attribute ~ src="image-source" / ~ to add image on the webpage. Image source can be image link address on the internet or cloud address or on the same repository. this tag is a self-closing tag.
+    
+    for image in the same Repository under Image folder in the Repo, then image source = /Image/image-name.extension.
+    
+    Prefered image extension is " .svg " file nd not " .png " or " .jpg " file.
+    </P>
+    <img src="/image/demo.svg" />
+
+    <hr>
+
+    <h2>@Heading</h2>
+    <p>We use "header" tag to describe hero or header of that webpage </p>
+    <header>
+        <img src="/image/header hero.svg" />
+        <h2>heading inside Header also known as Hero</h2>
+    </header>
+
+    <hr>
+
+    <h2>@Section</h2>
+    <p>We use "section" tag to create a section of required type on the webpage. =like : 2 section for text on 2 different types of colour bachground. for example.</p>
+    <section>
+        <h3>text on light blue background</h3>
+        <p>This section content Text on light blue background.</p>
+    </section>
+
+    <section>
+        <h3>text on light red background</h3>
+        <p>This section content Text on light red background.</p>
+    </section>
+
+    <hr>
+
+    <h2>@Footer</h2>
+    <footer>
+        <div>This Area comes under footer of web-page. Here mostly contact-links, social-links, feedback-links, etc. are present.
+
+        </div>
+        <ul>
+            <li>social one</li>
+            <li>social two</li>
+            <li>social three</li>
+        </ul>
+    </footer>
+
+    <hr>
+</body>
+</html>
